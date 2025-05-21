@@ -15,9 +15,6 @@ export const env = createEnv({
     CLOUDFLARE_D1_ACCOUNT_ID: z.string(),
     CLOUDFLARE_DATABASE_ID: z.string(),
     CLOUDFLARE_D1_API_TOKEN: z.string(),
-
-    GITHUB_CLIENT_ID: z.string(),
-    GITHUB_CLIENT_SECRET: z.string(),
   },
 
   /**
@@ -41,8 +38,6 @@ export const env = createEnv({
     CLOUDFLARE_DATABASE_ID: process.env.CLOUDFLARE_DATABASE_ID,
     CLOUDFLARE_D1_API_TOKEN: process.env.CLOUDFLARE_D1_API_TOKEN,
 
-    GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
-    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**
