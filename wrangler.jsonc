@@ -15,11 +15,6 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS",
   },
-  "observability": {
-    "logs": {
-      "enabled": true,
-    },
-  },
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
@@ -31,15 +26,15 @@
     // Create a R2 binding with the binding name "NEXT_INC_CACHE_R2_BUCKET"
     {
       "binding": "NEXT_INC_CACHE_R2_BUCKET",
-      "bucket_name": "stack-r2",
+      "bucket_name": "<BUCKET_NAME>",
     },
   ],
 
   "d1_databases": [
     {
       "binding": "DATABASE",
-      "database_name": "stack",
-      "database_id": "6cd15115-8564-4218-aefc-bff2ae620cb3",
+      "database_name": "<DATABASE_NAME>",
+      "database_id": "<DATABASE_ID>",
       "migrations_dir": "drizzle",
     },
   ],
